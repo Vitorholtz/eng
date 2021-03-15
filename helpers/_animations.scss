@@ -1,0 +1,28 @@
+@keyframes leftslide {
+    from {transform: translateX(-18rem); opacity: 0;}
+    to {transform: translateX( 0rem); opacity: 1;;}
+    
+  }
+
+  @keyframes Opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    
+  }
+
+  .black-square {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $bgblack;
+    width: 44rem;
+    height: 200rem;
+    animation: blackSquare 2s forwards
+
+  }
+  @keyframes blackSquare {
+
+    0% {transform: translateY(0rem);}
+    100% {transform: translate(-60rem, 120rem);}
+  }
