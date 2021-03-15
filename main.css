@@ -552,7 +552,7 @@ section .slider-and-description .slider-and-description-container .description-a
 }
 
 section .slider-and-description .slider-and-description-container .description-and-button .btn:hover::after {
-  width: 16rem;
+  width: 9rem;
 }
 
 section .websites-btn {
